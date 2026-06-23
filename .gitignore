@@ -1,0 +1,54 @@
+# mshauri-cli .gitignore
+
+# Credentials and secrets
+.env
+*.env
+secrets.sh
+credentials.sh
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Generated reports and logs
+mshauri_report_*.txt
+/tmp/mshauri_*.log
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.orig
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Compiled/cache files
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Test output
+test-results/
+coverage/
